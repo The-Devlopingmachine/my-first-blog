@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head> 
+        <link rel="stylesheet" href="{% static 'home/styles.css' %}">
+    </head>
+    <body>
+        <!-- creatintg the navbar html elemnet-->
+        <div class="topnav", id = "myTopnav">
+            <a href="#home" class = "active"> Home </a>
+            <a href="#blog"> Blog </a>
+            <a href="#contact"> Contact </a>
+            <a href="#about"> About us</a>
+            <a href ="javascript:void(0);" class="icon" onclick="myfunction()"></a>
+            <i class="fa fa-bars"></i>
+        </div>
+    </body>
+</html>
